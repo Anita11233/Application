@@ -1,0 +1,31 @@
+﻿html {
+    color: blue;
+}
+
+
+body {
+    color: white;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.navbar-inverse {
+    border-color: #1830b8;
+    background-color: #0f1f75;
+    opacity: 0.6;
+}
+
+    .navbar-inverse:hover {
+        border-color: #1830b8;
+        background-color: #1830b8;
+        color: white;
+        opacity: 1.0;
+    }
+
+/* _tables.scss:115 */
+.thead-dark {
+    color: white;
+    background-color: #1830b8;
+    border-color: #1830b8;
+}

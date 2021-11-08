@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingErrorApp", "ReportingErrorApp\ReportingErrorApp.csproj", "{CEEDA1A6-05E0-4FE6-BFBF-370DB09F3C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEEDA1A6-05E0-4FE6-BFBF-370DB09F3C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEDA1A6-05E0-4FE6-BFBF-370DB09F3C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEDA1A6-05E0-4FE6-BFBF-370DB09F3C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEDA1A6-05E0-4FE6-BFBF-370DB09F3C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {507462FF-4AC8-4989-A744-B494F17B67FB}
+	EndGlobalSection
+EndGlobal

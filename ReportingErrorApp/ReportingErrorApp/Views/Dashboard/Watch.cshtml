@@ -1,0 +1,58 @@
+﻿@Model List<Dashboard>
+
+    @{
+        ViewBag.Title = "Watch";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Support, Telecommunication, Software, Graduate work">
+        <!-- Internal Css-->
+        <link rel="stylesheet" href="~/wwwroot/css/Dashboard.css" media="screen">
+    </head>
+
+<body>
+    <h2>Watch</h2>
+
+    <div>
+
+       
+            <table class="table" style="color:black; user-select:all;">
+               
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">ClientName</th>
+                        <th scope="col">Contract</th>
+                        <th scope="col">Error Description</th>
+                        <th scope="col">More Info</th>
+
+                    </tr>
+                </thead>
+
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td>@item.ClientName</td>
+                            <td>@item.Contract</td>
+                            <td>@item.Description</td>
+                            <td>
+                                @Html.ActionLink("Detalis",
+                                             "Info",
+                                             "Dashboard",
+                                             new { id = item.Id },
+                                             null)
+                        </td>
+                    </tr>
+
+                }
+
+
+</table>
+

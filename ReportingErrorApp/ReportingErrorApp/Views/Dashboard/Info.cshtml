@@ -1,0 +1,57 @@
+﻿@Model List<Dashboard>
+
+    @{
+        ViewBag.Title = "Info";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Support, Telecommunication, Software, Graduate work">
+    <!-- Internal Css-->
+    <link rel="stylesheet" href="~/wwwroot/css/Dashboard.css" media="screen">
+</head>
+
+
+<body>
+    <h2>Info</h2>
+
+    <table class="table" style="color:black; user-select:all;">
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>ClientName</th>
+                <th>Priority</th>
+                <th>Request Type</th>
+                <th>Description</th>
+                <th>Contract</th>
+                <th>Phone</th>
+                <th>Date Time</th>
+                <th>Assign User</th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <th scope="row">@item.Id</th>
+        <th>@item.ClientName</th>
+        <th>@item.Priority</th>
+        <th>@item.RequestType</th>
+        <th>@item.Description</th>
+        <th>@item.Contract</th>
+        <th>@item.Phone</th>
+        <th>@item.DateCreated</th>
+        <th>@item.AssignUser</th>
+    </tr>
+
+        }
+
+
+    </table>
+
+
+

@@ -1,0 +1,45 @@
+﻿html {
+    background-image: url('/wwwroot/img/Index.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+body {
+    background-color: transparent;
+}
+
+.nav-item:hover {
+    color: #0c34e8;
+    border: #0c34e8 solid 1px;
+    background: #fff;
+}
+
+.Main-Div {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 82px;
+    margin: 3%;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.navbar-inverse {
+    border-color: #0807CA;
+    background-color: #225;
+    opacity:0.6;
+}
+
+    .navbar-inverse:hover {
+        border-color: #101010;
+        background-color: #101010;
+        color: white;
+        opacity: 1.0;
+    }
+
